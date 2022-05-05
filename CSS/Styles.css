@@ -1,0 +1,89 @@
+/* External CSS */
+
+header{
+    font-size: 17px;
+
+}
+body{
+    background-color:rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     font-size: 23px;
+     margin: 0%;  
+     
+     
+ }
+ul{
+    list-style-type: none;
+}
+/* Navigation Bar */
+.topnav{
+    background-color: rgb(188, 0, 0);
+    opacity: 0.8;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.topnav a {
+    float:right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top:-7px;
+}
+.topnav li{
+    margin-left: 20px;
+}
+
+ #label p{ 
+    color:white;
+    margin-top: -5px; 
+    margin-left: 45px;
+    font-size: 24px;
+    float:left;
+}
+.topnav a:hover{
+    background-color: rgb(240, 169, 169);
+}
+  /* Search Bar */
+  .topnav input[type=text]{
+      float:right;
+    
+      padding:11px;
+      padding-right: 110px;
+      margin-top:-7px;
+      margin-right:290px;
+      border: none;
+      font-size:16px;
+      border-radius: 20px;
+      
+  }
+
+  /* Customer Registration */
+
+.forms{
+    margin-top: 5%;
+    margin-left: 38%;
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.2);
+    width: 25%;
+    padding: 10px;
+    border: 1px;
+    border-color: black;
+    border-style: outset;
+    
+  }
+   #fullname, #email,#department, #password, #confirmpassword{
+    width: 30%;
+    padding: 4px 110px;
+    border-radius: 5px;
+    margin-left: 5%;
+    
+   
+  }
+  #submit{
+    margin-left: 40%;
+    margin-bottom:3%;
+  }
+ 
+

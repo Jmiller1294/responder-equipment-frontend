@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <!--
+            Author: Madeline Ayala
+            Date created: 5/1/2022
+            Date Modified: 5/2/2022
+            Modifer: Madeline Ayala
+        -->
+
+
+        <!--Tab-->
+        <title>FirstEquipement | Customer Registration </title>
+        <link href="CSS/Styles.css" rel="Stylesheet" type="text/css">
+ </head>
+        <!--Heading-->
+
+    
+    <body>
+        <!--Navigation Bar-->
+       
+        <div class ="topnav">
+     <ul>   
+        <div id = "label" ><p> First Responder Equipment</p></div>
+     <li> <a href="cart.html">Cart</a></li>
+     <li> <a href="contact.html">Contact</a></li>
+      <li> <a href="Login.html">Login</a></li>
+      <li> <a href="index.html">Home</a></li>
+      <input type = "text" placeholder = "Search" name = "search"></input>
+    </ul>
+    </div>
+
+    <!-- Middle -->
+    <div class = "forms">
+        <h3 style="text-align: center;">Create Account</h3>
+        <form action= "/action_page.php" id= "createAcct">
+
+        <!--Name-->
+        <label>Full Name:</label><br>
+        <input type="text" name = "fullname" id="fullname" style="text-align: center;" ><br>
+
+         <!--Email-->
+        <label>Email:</label><br>
+        <input type="email" name = "email" id="email"><br>
+
+        <!--Department-->
+        <label>Department:</label><br>
+        <input type="radio" id="firedept" name="regtype">
+        <label for="firedept">Fire Department</label><br>
+
+        <input type="radio" id="policedept" name="regtype">
+        <label for="policedept">Police Department</label><br>
+
+         <!--Password-->
+         <label>Password:</label><br>
+         <input type="password" name = "password" id="password" ><br>
+
+          <!--Confirm password-->
+         <label>Confirm Password:</label><br>
+         <input type="password"  name = "confirmpassword" id="confirmpassword" ><br><br>
+
+         <!--Errors-->
+         <!-- <div id="formErrors">
+                 
+            <li id = "fullnameError">Missing full name</li>
+            <li id = "emailError">Invalid or missing email address</li>
+            <li id = "departmentError">Missing Department</li>
+            <li id = "passwordError">Password must be between 10 and 20 characters</li>
+            <li id = "passwordError1">Password must contain at least one lowercase character</li>
+            <li id = "passwordError2">Password must contain at least one uppercase character</li>
+            <li id = "passwordError3">Password must contain at least one digit</li>
+            <li id = "passwordError4">Password and confirmation password don’t match</li> -->
+         <!--Button-->
+         <input type="button" value="Register" id="submit" name = "submit">
+        </body> 
+        </html>
