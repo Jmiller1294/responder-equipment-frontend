@@ -5,13 +5,16 @@ body {
   }
   /***** NAVIGATION BAR******/
   .topnav {
+    display: grid;
+    grid-template-columns: auto auto auto;
     overflow: hidden;
     background-color: #e92c2c;
   }
-  
+  .links {
+      margin-right: 40px;
+  }
   .topnav a {
     float: right;
-    display: block;
     color: rgb(255, 255, 255);
     padding: 14px 16px;
     text-decoration: none;
@@ -31,16 +34,16 @@ body {
   }
   
   .topnav input[type=text] {
-    position: relative;
-    right: 100px;
     padding: 15px;
     margin-top: 25px;
-    
     border: none;
     border-radius: 25em;
     font-size: 17px;
    
     
+  }
+ .topnac a:visited{
+    color: white;
   }
 
  #title{
@@ -53,27 +56,6 @@ body {
 
 
 
-  #slide-show{
-   
-    margin: 40px auto ;
-    border-color: black;
-    width: 50%;
-    height: 300px;  
-    border: solid;
-  }
-
-  .btn{
-    color: white;
-    background-color: #f44336;
-    padding: 15px 32px;
-    margin:auto;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: inline-block;
-    border-radius: 10px;
-    border: none;
-  }
-  
 
 
 
