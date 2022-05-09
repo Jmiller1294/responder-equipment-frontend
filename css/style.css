@@ -7,12 +7,12 @@ body {
   .topnav {
     display: grid;
     grid-template-columns: auto auto auto;
-    overflow: hidden;
     background-color: #e92c2c;
   }
   .links {
       margin-right: 40px;
   }
+  
   .topnav a {
     float: right;
     color: rgb(255, 255, 255);
@@ -47,10 +47,25 @@ body {
   }
 
  #title{
-     float: left;
-     color: white;
-     margin-left: 10em;
+     color: white;  
  }
+ @media only screen and (max-width:844px){
+      .topnav{
+        display: grid;
+        grid-template-columns: auto;
+        background-color: #e92c2c;
+      }
+       .search{
+         margin-bottom: 10px;
+       }
+      .links{
+        margin: auto;
+      }
+ }
+
+
+
+
   
   /***** NAVIGATION BAR******/
 
