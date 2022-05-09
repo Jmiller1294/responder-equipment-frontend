@@ -1,0 +1,92 @@
+/********************************OUTER GRID**********************/
+
+
+#wrapper{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+}
+
+/*Department-Grid*/
+
+#department-grid{
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border: 5px solid rgb(184, 47, 47);
+  background-color: rgb(184, 47, 47);
+  margin: 30PX;
+  height: 94%;
+}
+
+#department-grid a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: white;
+}
+
+
+
+
+
+
+/**************************INNER GRID*********************************/
+
+/*** PRODUCT LIST***/ 
+#product_grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center; 
+  grid-row-gap: 20px;
+  grid-column-gap: 30px;
+  margin: 30px;
+ 
+  
+
+}
+
+/**PRODUCT CARDS****/
+.card { 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 388px;
+    height: auto;
+    border-radius: 5px;
+    
+  }
+  .card  img{
+    border-radius: 5px 5px 0 0;
+    height: 300px;
+    width: 100%;
+  }
+  
+  
+  .card button:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+
+  .foot{
+    border: 10px solid red;
+    height: 80px;
+    margin: 30px;
+    margin-top: 0;
+  }
