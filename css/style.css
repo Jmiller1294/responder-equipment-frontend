@@ -6,9 +6,11 @@ body {
   /***** NAVIGATION BAR******/
   .topnav {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3,1fr);
     background-color: #e92c2c;
+    
   }
+  
   .links {
       margin-right: 40px;
   }
@@ -52,11 +54,13 @@ body {
  @media only screen and (max-width:844px){
       .topnav{
         display: grid;
+        width: auto;
         grid-template-columns: auto;
         background-color: #e92c2c;
       }
        .search{
-         margin-bottom: 10px;
+         margin: auto 10px 10px 10px;
+         width: 90%;
        }
       .links{
         margin: auto;

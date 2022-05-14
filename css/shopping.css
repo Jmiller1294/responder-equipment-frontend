@@ -3,21 +3,29 @@
 
 #wrapper{
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 25% auto;
   grid-template-rows: 1fr;
   grid-column-gap: 50px;
-}
+  width: 95%;
+} 
 
+
+@media only screen and (max-width: 844px ) {
+  #wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+}
 /*Department-Grid*/
 
 #department-grid{
-  width: 100%;
+  width: 70%;
   padding: 10px;
   color: white;
   border: 5px solid rgb(184, 47, 47);
   background-color: rgb(184, 47, 47);
   margin: 30PX;
-  height: 94%;
+  height: 25%;
 }
 
 #department-grid a{
@@ -36,16 +44,18 @@ a:visited{
 /**************************INNER GRID*********************************/
 
 /*** PRODUCT LIST***/ 
-#product_grid{
+ #product_grid{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3,1fr);
   justify-content: center; 
   grid-row-gap: 20px;
   grid-column-gap: 30px;
   margin: 30px;
- 
-  
-
+}  
+@media only screen and(max-width: 844px){
+   #product_grid{
+    
+   }
 }
 
 /**PRODUCT CARDS****/
